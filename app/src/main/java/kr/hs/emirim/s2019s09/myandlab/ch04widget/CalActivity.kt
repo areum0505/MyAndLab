@@ -38,6 +38,7 @@ class CalActivity : AppCompatActivity(), View.OnClickListener {
                 Toast.makeText(this, "숫자를 입력해주세요", Toast.LENGTH_SHORT).show()
             } catch (e: Exception) {
                 Toast.makeText(this, "알 수 없는 예외 발생", Toast.LENGTH_SHORT).show()
+                
             }
         }
         findViewById<Button>(R.id.btnMinus).setOnClickListener {
